@@ -1,0 +1,24 @@
+{
+  "name": "leap-inject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node leap-inject.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/amino": "^0.32.2",
+    "@cosmjs/proto-signing": "^0.32.2",
+    "deepmerge": "^4.3.1",
+    "long": "^5.2.3",
+    "node": "^21.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  }
+}
